@@ -1,0 +1,9 @@
+--Big countries
+--Write a solution to find the name, population, and area of the big countries.
+
+--Return the result table in any order.
+
+/* Write your PL/SQL query statement below */
+select name,population,area 
+from world
+where population>=25000000 or area>=3000000
